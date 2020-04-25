@@ -12,34 +12,33 @@ a:hover {
     height:50px;
     padding-top: 5px;
 }
+
 .nav-header a{
     font-family: Arial, sans-serif;
     font-size: 13px;
     color: rgb(0, 0, 87);
-
+    margin-left: 15px;
 }
 
 .left-nav {
     display: flex;
     height: 100%;
     float: left;
-    margin-left: 23px;
-    
+    padding-left: 5px;
 }
+
 .right-nav {
     display: flex;
     height: 100%;
-    float: right;
-    margin-right: 30px;
-    
+    float: right; 
+    padding-left: 15px;
+    padding-right: 27px;
 }
 
 .inline-links a {
     display: flex;
     height: 100%;
     align-items: center;
-    padding-right: 15px;
-       
 }
 
 #apps-icon {
@@ -51,12 +50,13 @@ a:hover {
     background-position-x: -132px;
     background-position-y: -38px;
     background-size: 528px 68px;
-    padding-right: 15px;
-
+    margin-left: 15px;
 }
 
-#user-link {
-    padding-right: 30px;
+#apps-icon a {
+    height: 30px;
+    width: 30px;
+    margin-left: 0px;
 }
 
 #user-icon {
@@ -67,36 +67,64 @@ a:hover {
     width: 30px;
     background-image: url(https://lh3.googleusercontent.com/-KbsAqbRSAEk/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuclQPf-mLKTXERzmHccLvWRmjNqVvQ.CMID/s32-c/photo.jpg);
     border-radius: 50%;   
+    margin-left: 15px; 
+}
+
+#user-icon a {
+    height: 30px;
+    width: 30px;
+    margin-left: 0px;
+}
+
+.content {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    margin-top: 55px;
+    align-items: center;
+    flex-direction: column;
 }
 
 .banner {
-    display: flex;
-    justify-content: center;
-    padding-top: 75px;
+    padding-top: 89px;
 }
 
 .search-area {
     display: flex;
+    width: 560px;
+    height: 39px;
     justify-content: center;
+    border-radius: 24px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    border: 1px solid #dfe1e5;
 
 }
 
+.search-area:hover {
+    box-shadow: 0px 1px 6px rgba(32, 33, 36, 0.28);
+}
+
 .search-bar {
-    display: flex;
+    justify-self: center;
     height: 34px;
     font-size: 16px;
     font-weight: 400;
     font-family: Arial, sans-serif;
     color: rgb(0, 0, 87);
-    width: 387px;
-    margin-top: 30px;
+    width: 487px;
+    border: 0;    
+}
+
+.search-bar:focus {
+    border: 0;
+    outline: none;
 }
 
 .button-area {
     display: flex;
     justify-content: center;
     padding-top: 18px;
-
 }
 
 .search-buttons {
@@ -114,7 +142,6 @@ a:hover {
     border-style: solid;
     border-width: 1px;
     box-sizing: border-box;
-
 }
 
 .search-subtext {
@@ -125,7 +152,6 @@ a:hover {
     justify-content: center;
     text-decoration-line: none;
     padding-top: 30px;
-    
 }
 
 .nav-footer {
@@ -141,6 +167,7 @@ a:hover {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 14px;
+    padding-left: 27px;
 }
 
 footer {
