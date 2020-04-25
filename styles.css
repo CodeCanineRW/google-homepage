@@ -1,0 +1,146 @@
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.nav-area {
+    display: block;
+    width: 100%;
+    height:50px;
+    padding-top: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+
+}
+
+.left-nav {
+    display: flex;
+    height: 100%;
+    float: left;
+    margin-left: 23px;
+    
+}
+.right-nav {
+    display: flex;
+    height: 100%;
+    float: right;
+    margin-right: 30px;
+    
+}
+
+.inline-links a {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding-right: 15px;
+    
+}
+
+#apps-icon {
+    display: flex;
+    align-self: center;
+    height: 30px;
+    width: 30px;
+    background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    background-position-x: -132px;
+    background-position-y: -38px;
+    background-size: 528px 68px;
+    padding-right: 15px;
+
+}
+
+#user-link {
+    padding-right: 30px;
+}
+
+#user-icon {
+    display: flex;
+    align-self: center;
+    align-content: center;
+    height: 30px;
+    width: 30px;
+    background-image: url(https://lh3.googleusercontent.com/-KbsAqbRSAEk/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuclQPf-mLKTXERzmHccLvWRmjNqVvQ.CMID/s32-c/photo.jpg);
+    border-radius: 50%;   
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;
+}
+
+.search-area {
+    display: flex;
+    justify-content: center;
+
+}
+
+.search-bar {
+    display: flex;
+    height: 34px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, sans-serif;
+    color: rgb(0, 0, 87);
+    width: 387px;
+    margin-top: 30px;
+}
+
+.button-area {
+    display: flex;
+    justify-content: center;
+    padding-top: 18px;
+
+}
+
+.search-buttons {
+    margin: 11px 4px;
+    padding: 0px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    height: 36px;
+    min-width: 54px;
+    background-color: rgb(242, 242, 242);
+    border-color: rgb(242, 242, 242);
+    color: rgb(95, 99, 104);
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+
+}
+
+.search-subtext {
+    display: flex;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: #1a0dab;
+    justify-content: center;
+    text-decoration-line: none;
+    padding-top: 30px;
+    
+}
+
+.footer-area {
+    display: block;
+    width: 100%;
+    height: 40px;
+    color: rgb(34, 34, 34);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    background-color: #f2f2f2;
+    line-height: 40px;
+}
+
+footer {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height:40px;
+}

@@ -2,23 +2,23 @@
 <html>
     <head>
         <title>Google</title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
 
     <body>
         <header>
             <nav>
                 <ul class="inline-links">
-                    <div class="left-nav">
-                    <li class ="nav-link" id="about"><a href="https://about.google/">About</a></li>
-                    <li class ="nav-link" id="store"><a href="https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a></li>
-                    </div>
-
-                    <div class="right-nav">
+                    <div class="nav-area">
+                        <div class="left-nav">
+                    <li class="nav-link" id="about"><a href="https://about.google/">About</a></li>
+                    <li class="nav-link" id="store"><a href="https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a></li>
+                        </div><div class="right-nav">
                     <li class="nav-link" id="gmail"><a href="https://mail.google.com/mail/?tab=wm&ogbl">Gmail</a></li>
                     <li class="nav-link" id="images"><a href="https://www.google.com/imghp?hl=en&tab=wi&ogbl">Images</a></li>
                     <li class="nav-link" id="apps-icon"><a href="https://www.google.com/intl/en/about/products?tab=wh"></a></li>
-                    <li class="nav-link" id="user-icon"><a href="https://accounts.google.com/"></a></li>
+                    <li class="nav-link" id="user-icon"><a id = "user-link" href="https://accounts.google.com/"></a></li>
                     </div>
                 </ul>
             </nav>
@@ -26,9 +26,14 @@
 
         <main>
             <div class="banner">
-                <a id="banner" alt="Google logo" href="https://www.google.com/"></a>
+                <a id="banner" title ="Google Search" alt="Google logo" href="https://www.google.com/">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+                </a>
             </div>
-                <div class="button-area">
+            <div class="search-area">
+                <input class="search-bar" type="text" name="Search" >
+            </div>
+            <div class="button-area">
                 <button name="search" class="search-buttons" type="button">Google Search</button>
                 <button name="lucky" class="search-buttons" typ="button">I'm Feeling Lucky</button>
             </div>
@@ -42,18 +47,18 @@
         <footer>
             <nav>
                 <ul class="inline-links">
-                    <div class="left-footer">
-                    <li class="footer-link" id="advertising"><a href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
-                    <li class="footer-link" id="business"><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a></li>
-                    <li class="footer-link" id="how-search-works"><a href="https://google.com/search/howsearchworks/?fg=1">How Search Works</a></li>
+                    <div class="footer-area">
+                        <div class="left-nav">
+                        <li class="nav-link" id="advertising"><a href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
+                        <li class="nav-link" id="business"><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a></li>
+                        <li class="nav-link" id="how-search-works"><a href="https://google.com/search/howsearchworks/?fg=1">How Search Works</a></li>
 
-                    </div>
-                    <div class="right-footer">
-                    <li class="footer-link" id="privacy"><a href="https://policies.google.com/privacy?fg=1">Privacy</a></li>
-                    <li class="footer-link" id="terms"><a href="https://policies.google.com/terms?fg=1">Terms</a></li>
-                    <li class="footer-link" id="settings"><a href="https://www.google.com/preferences?hl=en">Settings</a></li>
-
-                    </div>
+                        </div><div class="right-nav">
+                        <li class="nav-link" id="privacy"><a href="https://policies.google.com/privacy?fg=1">Privacy</a></li>
+                        <li class="nav-link" id="terms"><a href="https://policies.google.com/terms?fg=1">Terms</a></li>
+                        <li class="nav-link" id="settings"><a href="https://www.google.com/preferences?hl=en">Settings</a></li>
+                        </div>
+                    </div>  
                 </ul>
             </nav>
         </footer>
